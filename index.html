@@ -4,10 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3d navbar</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styl.css">
     <script src="dist/main.js" defer></script>
 </head>
 <body>
-    
+    <!-- nav bar -->
+    <nav class="navbar b">
+        <div class="toggle-btn active b">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <ul class="nav-list">
+        <li class="link">Home</li>
+        <li class="link">Projects</li>
+        <li class="link">About</li>
+    </ul>
+
+    <header class="page-container b">
+        <div class="overlay"></div>
+        <section class="page home active">
+            <p class="title">Home</p>
+        </section>
+        <section class="page project">
+            <p class="title">Projects</p>
+        </section>
+        <section class="page about">
+            <p class="title">FrontEnd Developer</p>
+        </section>
+    </header>
+
 </body>
 </html>
